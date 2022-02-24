@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:gravity="end"
+        android:textSize="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Numero 1"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 2"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suma" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resta" />
+
+    <Button
+        android:id="@+id/btnMultiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicacion" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division" />
+
+</LinearLayout>
